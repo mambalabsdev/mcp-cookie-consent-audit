@@ -95,7 +95,7 @@ Blocked, timed out, partial, cached, and invalid rows are never charged.
 
 ## Your keys
 
-The actor needs no provider key. It loads public pages through the Apify proxy and holds no key of its own.
+The actor needs no provider key. It loads public pages with the page and its banner deciding requests sent through the Apify proxy, and holds no key of its own.
 
 ## Full actor documentation
 

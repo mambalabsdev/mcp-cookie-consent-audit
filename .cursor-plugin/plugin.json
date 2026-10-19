@@ -1,7 +1,7 @@
 {
   "name": "mcp-cookie-consent-audit",
   "displayName": "Cookie Consent Audit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Cookie Consent Audit. Check a website's cookie consent behavior from an EU address: consent platform, reject on the first layer, cookies and trackers before consent and after reject, and Global Privacy Control response. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs",
