@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-cookie-consent-audit": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-cookie-consent-audit"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

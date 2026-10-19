@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-cookie-consent-audit",
+  "version": "1.0.0",
+  "description": "MCP server for Cookie Consent Audit. Check a website's cookie consent behavior from an EU address: consent platform, reject on the first layer, cookies and trackers before consent and after reject, and Global Privacy Control response. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-cookie-consent-audit": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cookie-consent",
+    "gdpr",
+    "eprivacy",
+    "consent-management",
+    "global-privacy-control",
+    "apify",
+    "clay",
+    "privacy-compliance"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/cookie-consent-audit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-cookie-consent-audit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-cookie-consent-audit"
+}

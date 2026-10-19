@@ -1,0 +1,36 @@
+{
+  "name": "mcp-cookie-consent-audit",
+  "displayName": "Cookie Consent Audit",
+  "version": "1.0.0",
+  "description": "MCP server for Cookie Consent Audit. Check a website's cookie consent behavior from an EU address: consent platform, reject on the first layer, cookies and trackers before consent and after reject, and Global Privacy Control response. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-cookie-consent-audit",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "cookie-consent",
+    "gdpr",
+    "consent-management",
+    "global-privacy-control",
+    "privacy-compliance",
+    "apify",
+    "clay"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cookie-consent",
+    "gdpr",
+    "eprivacy",
+    "consent-management",
+    "global-privacy-control",
+    "apify",
+    "clay",
+    "privacy-compliance"
+  ],
+  "mcpServers": ".mcp.json"
+}
