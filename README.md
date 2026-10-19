@@ -88,8 +88,8 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
-| `domain-audited`, per fully audited domain | ${{P_FREE}} | ${{P_BRONZE}} | ${{P_SILVER}} | ${{P_GOLD}} |
-| `apify-actor-start`, per run start | ${{S_FREE}} | ${{S_BRONZE}} | ${{S_SILVER}} | ${{S_GOLD}} |
+| `domain-audited`, per fully audited domain | $0.05 | $0.0475 | $0.045 | $0.0425 |
+| `apify-actor-start`, per run start | $0.001 | $0.001 | $0.001 | $0.001 |
 
 Blocked, timed out, partial, cached, and invalid rows are never charged.
 
